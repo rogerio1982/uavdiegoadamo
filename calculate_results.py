@@ -9,16 +9,16 @@ def calculate_results(users, smalls):
     """
         Índices da variável results:
 
-        1 = Usuários conectados
-        2 = Usuários não conectados
-        3 = Média taxa de dados dos usuários (Geral)
-        4 = Taxa de dados mínima obtidada pelos usuários (Geral)
-        5 = Taxa de dados máxima obtidada pelos usuários (Geral)
-        6 = Média taxa de dados dos usuários (somente nas small base stations)
-        7 = Taxa de dados mínima obtidada pelos usuários (somente nas small base stations)
-        8 = Taxa de dados máxima obtidada pelos usuários (somente nas small base stations)
-        9 = Small cells ligadas
-        10 = Usuários conectados (somente nas small cells base stations)
+        0 = Usuários conectados
+        1 = Usuários não conectados
+        2 = Média taxa de dados dos usuários (Geral)
+        3 = Taxa de dados mínima obtidada pelos usuários (Geral)
+        4 = Taxa de dados máxima obtidada pelos usuários (Geral)
+        5 = Média taxa de dados dos usuários (somente nas small base stations)
+        6 = Taxa de dados mínima obtidada pelos usuários (somente nas small base stations)
+        7 = Taxa de dados máxima obtidada pelos usuários (somente nas small base stations)
+        8 = Small cells ligadas
+        9 = Usuários conectados (somente nas small cells base stations)
         
     """
     rows = (10) # tamanho do vetor
